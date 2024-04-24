@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigusto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="videoContainer">
+        <video autoplay muted loop id="videoBG" speed="3.0">
+            <source src="img/video (2160p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+    <section>
+    <header>
+        <nav>
+                <a href="#home">Home<span></span></a>
+                <a href="#about">About<span></span></a>
+                <a href="#login">Events<span></span></a>
+                <a href="#features">Unique Features<span></span></a>
+                <a href="#contact">Contact Us<span></span></a>
+                <a href="https://www.vogue.in/content/how-intimate-dining-is-fast-becoming-a-beloved-culinary-trend-on-indias-food-block" 
+                class="vogue">VOGUE INDIA<span></span></a>
+                <a href="login.ejs"class="vogue">LOGIN<span></span></a>
+
+        </nav>
+    </header>
+    <h1>Navigusto</h1>
+    <h4>WHERE CULINARY ADVENTURES AWAIT!</h4></section>
+    <button class="menu-btn" onclick="toggleMenu()">
+        <span class="hamburger">&#9776;</span>
+    </button>
+  
+
+    <main>
+        <section id="about" class="section" style="background-color: rgba(255, 255, 255, 0.189); color: white;">
+            <h3>About Navigusto</h3>
+            <p><br>Welcome to Navigusto, where dining transcends mere sustenance and becomes an unforgettable 
+                journey of flavors, cultures, and experiences. Born from a fusion of passion for exploration and 
+                a love for fine cuisine, Navigusto is dedicated to delivering immersive pop-up dining experiences 
+                that transport guests to culinary destinations around the globe. Our meticulously curated menus, 
+                crafted by seasoned chefs and inspired by diverse culinary traditions, showcase the best of seasonal,
+                 locally sourced ingredients. Step into our pop-up dining space and prepare to be whisked away to 
+                 exotic locales through our immersive ambiance, inspired decor, and carefully curated playlists. 
+                 We believe in fostering community and collaboration, partnering with local artisans, growers, and 
+                 guest chefs to create unforgettable moments and support sustainable practices. Follow us on social 
+                 media to stay updated on upcoming events, special collaborations, and behind-the-scenes insights. 
+                 Join us at Navigusto, where every meal is a journey waiting to be savored. At Navigusto, we don't 
+                 just serve food; we craft experiences that tantalize the senses and create lasting memories. 
+                 Whether you're a seasoned food enthusiast or an adventurous diner eager to explore new culinary 
+                 horizons, our pop-up events promise to delight and surprise with every bite. Join us as we 
+                 redefine the art of dining and embark on a culinary adventure unlike any other. Welcome to 
+                 Navigusto – where every meal is an invitation to discover the world through taste. Come dine 
+                 with us and let your palate be your guide as we take you on a journey of culinary exploration, 
+                 where each dish tells a story and each flavor evokes a sense of wonder. At Navigusto, we believe 
+                 that the magic of food lies not only in its taste but in the memories and connections it creates. 
+                 Join our community of food lovers, explorers, and dreamers, and let's embark on this delicious 
+                 journey together.</p>
+        </section>
+        
+        <section id="login" class="section" style="background-color: rgba(255, 255, 255, 0.189); color: white; padding: 250px 0 250px 0;" >
+            <h3>Upcoming Events</h3>
+            <p style="text-align: center; font-size: 30px"><br>To view our upcoming events, kindly login.<br><br></p>
+            <a href="login.ejs"class="vogue1" style="margin-left: 50%;">LOGIN<span></span></a>
+
+        </section>
+
+    <section id="body1">
+        <section id="features" class="section">
+            <h3>Unique Features</h3>
+            <ol>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-bicycle"></i></div>
+                    <div class="title">Rotating Themes</div>
+                    <div class="descr">Explore a different culinary landscape with each visit as we rotate through an array of themes, from regional cuisines to historical eras and beyond. </div>
+                </li>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-car"></i></div>
+                    <div class="title">Seasonal Rotations</div>
+                    <div class="descr">Enjoy menus changing with seasons, highlighting the freshest flavors.</div>
+                </li>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-helicopter"></i></div>
+                    <div class="title">Chef's Table</div>
+                    <div class="descr">Reserve seats for an intimate experience with personalized attention.</div>
+                </li>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-plane"></i></div>
+                    <div class="title">VIP Member-ships</div>
+                    <div class="descr">Gain access to exclusive perks and events as a VIP member.</div>
+                </li>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+                    <div class="title">Themed Decor</div>
+                    <div class="descr">Immerse yourself in themed decor that complements each culinary journey.</div>
+                </li>
+                <li >
+                    <div class="icon"><i class="fa-solid fa-bus"></i></div>
+                    <div class="title">Guest Chef Events</div>
+                    <div class="descr">Enjoy special events with guest chefs, offering unique perspectives.</div>
+                </li>
+            </ol>
+            <div class="credits">
+                <a target="_blank" href="https://www.freepik.com/premium-vector/vector-infographic-design-template-with-icons-8-options-steps_10571883.htm"></a>
+            </div>
+        </section>
+    </section>
+
+        <section id="contact" class="section" style="text-align: center; background-color: rgba(255, 255, 255, 0.189); color: white;">
+            <h3>Contact Us</h3>
+            <p><BR>Have questions or want to book a reservation? Reach out to us!</p>
+            <a href="mailto:customernavigusto@outlook.com">customernavigusto@outlook.com</a></br>
+            <a href="tel:+91 88716 28970">+91 88716 28970</a></br>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Navigusto. All rights reserved.</p>
+    </footer>
+<script>
+    function toggleMenu() {
+      document.body.classList.toggle('menu-open');
+    }
+  </script>
+  
+</body>
+</html>
+
